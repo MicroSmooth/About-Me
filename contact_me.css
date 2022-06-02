@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00ffff;
+  }
+  nav{
+    background-color: rgba(8, 8, 8, 0.37);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+    }
+  .contact_subject{
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #00ffff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #07ff13;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .column, input[type=submit] {
+      width: 50%;
+      margin-top: 0;
+      display: inline-block;
+    }
+  }
+  textarea{
+    height: 200px;
+  }
+  .pix{
+    margin-right: 20px;
+    width: 100%;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 1.5px 1px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      box-shadow: 5.9px 10px 10px black;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .lets_connect{
+      color: #00ffff;
+      padding: 5px;
+      font-size: 20px;
+      display: inline-block;
+  }
+.social_media{
+    display: inline-block;
+    width: auto;
+}

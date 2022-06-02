@@ -1,0 +1,171 @@
+html{
+    /* height: 100%; */
+    text-align: center;
+    }
+nav{
+    background-color: rgba(8, 8, 8, 0.37);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 100%;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        display: inline-block;
+    }
+.intro{
+        display: inline-block;
+        width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+    .h12, .h13{
+        margin-right: 10px;
+        margin-left: 30px;
+        padding: 10px;
+        vertical-align: top;
+    }
+.my_pix{
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.my_info{
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.about_me:hover, .hobbies:hover{
+    width:600px;
+    height: 450px;
+    padding: 20px;
+    border: none;
+    color: #00ffff;
+    background-color: white;
+    box-shadow: 0 10px 10px black;
+}
+.about_me{
+    width:500px;
+    height: 450px;
+    padding: 20px;
+    text-align: right;
+    border: none;
+    color: #00ffff;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.hobbies{
+    width:500px;
+    height: 450px;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    color: #00ffff;
+    background-color: white;
+    display: inline-block;
+}
+.skill_set{
+    text-align: center;
+    background-color: white;
+    width: 1050px;
+    padding: 20px;
+    margin: auto;
+}
+.skill_set:hover{
+    text-align: center;
+    background-color: white;
+    width: 1050px;
+    height: max-content;
+    padding: 20px;
+    box-shadow: 0 10px 10px black;
+    margin: auto;
+}
+
+.skill_head{
+    color: #00ffff;
+    text-align: center;
+    margin: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.skills{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: #00ffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Ubuntu;
+    font-size: 30px;
+}
+header{
+    height: 118px;
+    text-align: center;
+    }
+h1{
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-family: Ubuntu, Helvetica, sans-serif;
+}
+a{
+    color: rgb(2, 110, 250);
+    font-family: Sylfaen, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact_me{
+    margin-top: 20px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    position: static;
+    bottom: 0%;
+}
+    footer p{
+        font-size: 18px;
+        font-family: serif;
+    }
+
+    .fa {
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-twitter {
+        color: #55ACEE;
+      }
+      .fa-facebook {
+        color: #3B5998;
+      }
+      .fa-google {
+        color: #dd4b39;
+      }
+      .fa-linkedin {
+        color: #007bb5;
+      }
